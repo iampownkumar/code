@@ -9,9 +9,9 @@
 # 2. Make the script executable: chmod +x create_learning_folder.sh
 # 3. Execute it: ./create_learning_folder.sh
 
-root="code"
-languages=("flutter" "dart" "nodejs" "html_css" "bash" "other_languages")
-subfolders=("playground" "main" "archive" "notes")
+root="$HOME/dev-workspace"
+languages=("flutter" "dart" "nodejs" "html_css" "bash" "hackathon" "other_languages")
+subfolders=("playground" "main" "archive"  "notes")
 
 # Create root folder
 mkdir -p "$root"
@@ -24,6 +24,8 @@ do
     mkdir -p "$root/$lang/$sub"
   done
 done
+
+
 
 # Create a README.md file in the root folder with folder explanations
 cat <<EOT > "$root/README.md"
@@ -44,8 +46,12 @@ Languages:
 - nodejs: Projects and practice in nodejs language/framework
 - html_css: Projects and practice in html_css language/framework
 - bash: Projects and practice in bash language/framework
+- hackathon: Projects created during hackathons
 - other_languages: Projects and practice in other_languages language/framework
 
 EOT
 
 echo "Folder structure and README.md created inside \"$root/\""
+echo 
+echo "Folders Structure: "
+tree $root  #This will show the tree structure of the created folders  make sure to install "tree"
