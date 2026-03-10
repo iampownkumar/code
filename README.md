@@ -18,43 +18,31 @@ Languages:
 - bash: Projects and practice in bash language/framework
 - other_languages: Projects and practice in other_languages language/framework
 
-Tree structures:
-.
+## Tree Structure
+
+```
+dev-workspace
 ├── bash
-│   ├── archive
-│   ├── main
-│   ├── notes
-│   └── playground
+│   ├── archive
+│   ├── main
+│   ├── notes
+│   └── playground
 ├── dart
-│   ├── archive
-│   ├── main
-│   ├── notes
-│   └── playground
+│   ├── archive
+│   ├── main
+│   ├── notes
+│   └── playground
 ├── flutter
-│   ├── archive
-│   ├── main
-│   ├── notes
-│   └── playground
+│   ├── archive
+│   ├── main
+│   ├── notes
+│   └── playground
 ├── hackathon
-│   ├── archive
-│   ├── main
-│   ├── notes
-│   └── playground
-├── html_css
-│   ├── archive
-│   ├── main
-│   ├── notes
-│   └── playground
-├── nodejs
-│   ├── archive
-│   ├── main
-│   ├── notes
-│   └── playground
-├── other_languages
-│   ├── archive
-│   ├── main
-│   ├── notes
-│   └── playground
+│   ├── archive
+│   ├── main
+│   ├── notes
+│   └── playground
 └── README.md
+```
 
 36 directories, 1 file
